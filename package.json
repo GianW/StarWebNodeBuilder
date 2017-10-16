@@ -1,0 +1,13 @@
+{
+  "name": "StarWebNodeBuilder",
+  "version": "1.0.0",
+  "description": "Build System StarWeb with nodejs",
+  "main": "nodeBuild.js",
+  "author": "Gian Winckler",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "dotenv": "^4.0.0",
+    "request": "^2.83.0"
+  }
+}
