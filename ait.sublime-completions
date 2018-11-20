@@ -1,0 +1,16 @@
+{
+   "scope": "text.html, source.abl",
+
+   "completions":
+   [
+      { "trigger": "def var \tabl", "contents": "def var ${1:nomeVar} as ${2:char} no-undo." },
+      { "trigger": "def temp \tabl", "contents": "def temp-table ${1:ttName} no-undo \n   field ${2:fieldName} as ${3:char}." },
+      { "trigger": "procedure \tabl", "contents": "procedure ${1:procName}:\n\nend procedure."},
+      { "trigger": "function \tabl", "contents": "function ${1:procName}:\n\nend function."},
+      { "trigger": "def input param \tabl", "contents": "def input param ${1:nomeparam} as ${2:char} no-undo."},
+      { "trigger": "for each \tabl", "contents": "for each ${1:tabName} no-lock:\n\nend."},
+      { "trigger": "find first \tabl", "contents": "find first ${1:tabName} where ${2:tabName.fieldName} = ${3:compare}  no-lock no-error."},
+      { "trigger": "if \tabl", "contents": "if (${1:something} = ${2:otherThing}) then do: \n\nend."},
+      { "trigger": "case \tabl", "contents": "case ${1:status}:\n   when ${2:something} then do: \n\n   end. \n   otherwise do: \n\n   end. \nend case."},
+   ]
+}
