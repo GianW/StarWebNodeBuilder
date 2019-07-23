@@ -3,14 +3,14 @@
 
    "completions":
    [
-      { "trigger": "def var \tabl", "contents": "def var ${1:nomeVar} as ${2:char} no-undo." },
-      { "trigger": "def temp \tabl", "contents": "def temp-table ${1:ttName} no-undo \n   field ${2:fieldName} as ${3:char}." },
-      { "trigger": "procedure \tabl", "contents": "procedure ${1:procName}:\n\nend procedure."},
-      { "trigger": "function \tabl", "contents": "function ${1:procName}:\n\nend function."},
-      { "trigger": "def input param \tabl", "contents": "def input param ${1:nomeparam} as ${2:char} no-undo."},
-      { "trigger": "for each \tabl", "contents": "for each ${1:tabName} no-lock:\n\nend."},
-      { "trigger": "find first \tabl", "contents": "find first ${1:tabName} where ${2:tabName.fieldName} = ${3:compare}  no-lock no-error."},
-      { "trigger": "if \tabl", "contents": "if (${1:something} = ${2:otherThing}) then do: \n\nend."},
-      { "trigger": "case \tabl", "contents": "case ${1:status}:\n   when ${2:something} then do: \n\n   end. \n   otherwise do: \n\n   end. \nend case."},
+      { "trigger": "def var \tabl", "contents": "DEF VAR ${1:nomeVar} as ${2:char} NO-UNDO." },
+      { "trigger": "def temp \tabl", "contents": "DEF TEMP-TABLE ${1:ttName} NO-UNDO \n   FIELD ${2:fieldName} AS ${3:char}." },
+      { "trigger": "procedure \tabl", "contents": "PROCEDURE ${1:procName}:\n\nEND PROCEDURE."},
+      { "trigger": "function \tabl", "contents": "FUNCTION ${1:procName}:\n\nEND FUNCTION."},
+      { "trigger": "def input param \tabl", "contents": "DEF INPUT PARAM ${1:nomeparam} AS ${2:char} NO-UNDO."},
+      { "trigger": "for each \tabl", "contents": "FOR EACH ${1:tabName} NO-LOCK:\n\nEND."},
+      { "trigger": "find first \tabl", "contents": "FIND FIRST ${1:tabName} WHERE ${2:tabName.fieldName} = ${3:compare}  NO-LOCK NO-ERROR."},
+      { "trigger": "if \tabl", "contents": "IF (${1:something} = ${2:otherThing}) THEN DO: \n\nEND."},
+      { "trigger": "case \tabl", "contents": "CASE ${1:status}:\n  WHEN ${2:something} THEN DO: \n\n   END. \n   otherwise do: \n\n   end. \nEND CASE."},
    ]
 }

@@ -3,6 +3,7 @@ npm-debug.log*
 
 # Dependency directories
 node_modules/
+db_scheema/
 
 # dotenv environment variables file
 .env
